@@ -16,6 +16,6 @@ for(let i=0 ;i<arr.length ;i++){
 console.log(bag)
 
 
-let valu =11;
+let valu = 11;
 
 5%3==0 ? console.log("yes"): 11%5==0 ? console.log("some") : console.log("prachu")
