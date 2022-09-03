@@ -1,6 +1,6 @@
 
 
-let x= {}, y = {name:"Ronny"},z = {name:"John"};
+let x = {}, y = {name:"Ronny"},z = {name:"John"};
 
 x[y] = {name:"Vivek"};
 x[z] = {name:"Akki"};
