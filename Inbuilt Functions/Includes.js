@@ -20,8 +20,49 @@ for(let i=0 ;i<arr.length ;i++){
 
 console.log(count)
 
-
-
 // OUTPUT ------> 2
+
+
+
+let str = "I am Prachiii i am Prachii am Prachi"
+
+str = str.split(" ");
+
+let count =0;
+for(let i=0 ;i<str.length ;i++){
+
+  if(str[i].includes("Prachi")){
+    count++;
+  }
+}
+
+console.log(count)
+
+// OUTPUT ------> 3
+
+
+
+
+let str = "My Name is Pra#chi Sin*gh Sherawat"
+
+let s = str.split(" ")
+
+for(let i=0 ;i<s.length ;i++){
+
+  if(s[i].includes("a") || s[i].includes("*")){
+    console.log("Yes")
+  }
+  
+}
+
+// OUTPUT ------> Yes
+//                Yes
+//                Yes
+//                Yes
+
+
+
+
+
 
 
