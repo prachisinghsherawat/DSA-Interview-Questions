@@ -1,6 +1,8 @@
 
 
-// Find() --->  find function returns the value of first element that passes the test 
+// FIND() METHOD ----->  
+
+// find function returns the value of first element that passes the test 
 
 
 
@@ -11,4 +13,8 @@ let num = arr.find((el)=> el>10);
 console.log(num)
 
 
+
 // OUTPUT  ---> 20
+
+
+
