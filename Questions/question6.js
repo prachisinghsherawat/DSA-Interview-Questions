@@ -20,5 +20,6 @@ let lastname = "Sherawat"
 // }
 
 
+
 firstname && lastname ? console.log(firstname[0]?.toUpperCase() + lastname[0]?.toUpperCase()) : !firstname && lastname 
   ?  console.log(lastname[0]?.toUpperCase()) : firstname && !lastname ? console.log(firstname[0]?.toUpperCase()) : console.log("")
