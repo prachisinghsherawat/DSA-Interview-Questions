@@ -1,0 +1,17 @@
+// vowels in String without duplicates
+
+let str = "Prachi Singh"
+let arr = [];
+
+for(let i=0 ;i<str.length ;i++){
+  if(str[i] == "a" || str[i] =="e" || str[i]=="i" || str[i]=="o" || str[i]=="u" ){
+    if(!arr.includes(str[i])){
+      arr.push(str[i])
+    }
+    
+  }
+}
+
+console.log(arr.join())
+
+
