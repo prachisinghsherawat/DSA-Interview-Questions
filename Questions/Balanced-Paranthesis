@@ -1,0 +1,25 @@
+// Balanced Parathesis
+
+let str = "({[]})"
+let stack = [];
+
+for(let i=0 ;i<str.length ;i++){
+
+  if(stack[stack.length-1] =="(" && str[i] ==")"){
+    stack.pop()
+  }
+
+  else if(stack[stack.length-1] =="[" && str[i] =="]"){
+    stack.pop()
+  }
+
+  else if(stack[stack.length-1] =="{" && str[i] =="}"){
+    stack.pop()
+  }
+
+  else{
+    stack.push(str[i])
+  }
+}
+
+stack.length ==0 ? console.log("Balanced"): console.log("Not Balanced")
